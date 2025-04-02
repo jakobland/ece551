@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/Ex10
+vbrushless
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1741024621
+!i10b 1
+!s100 59[I6Weg>NZY[QJkl4@CB1
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IgGh<IfdRXZQ?O]i8^gk;h0
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+dC:/Users/jland/Desktop/collage/ece_551/Ex12
+w1741024606
+8C:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv
+!i122 0
+L0 1 111
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1741024621.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0

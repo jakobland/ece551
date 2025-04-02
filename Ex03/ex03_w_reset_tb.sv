@@ -1,0 +1,37 @@
+module ex03_tb();
+
+  logic CLK, D, Q, RESET_N;
+
+  ex03 iDUT(.d(D), .clk(CLK), .reset_n(RESET_N), .q(Q));
+
+  always
+    #5 CLK = ~CLK;
+
+  initial begin
+    D = 0;
+    CLK = 0;
+    RESET_N = 1;
+
+    @(negedge CLK);
+    #2;
+    D = 1;
+    repeat (2) @(posedge CLK);
+    #2;
+    D = 0;
+    repeat (2) @(posedge CLK);
+    #2;
+    D = 1;
+    repeat (2) @(posedge CLK);
+    #2
+    RESET_N = 0;
+    repeat (2) @(posedge CLK);
+    #2;
+    RESET_N = 1;
+
+    #10;
+
+    $stop();
+
+  end
+
+endmodule

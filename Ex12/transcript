@@ -1,0 +1,184 @@
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv failed with 8 errors.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 1 failed with 8 errors.
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv failed with 1 errors.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv failed with 6 errors.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 1 failed with 6 errors.
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.SPI_mnrch_tb
+# vsim work.SPI_mnrch_tb 
+# Start time: 10:08:52 on Mar 04,2025
+# Loading sv_std.std
+# Loading work.SPI_mnrch_tb
+# Loading work.SPI_mnrch
+# Loading work.ADC128S
+# Loading work.SPI_ADC128S
+add wave -position insertpoint  \
+sim:/SPI_mnrch_tb/iDUT/clk \
+sim:/SPI_mnrch_tb/iDUT/rst_n \
+sim:/SPI_mnrch_tb/iDUT/SS_n \
+sim:/SPI_mnrch_tb/iDUT/SCLK \
+sim:/SPI_mnrch_tb/iDUT/MOSI \
+sim:/SPI_mnrch_tb/iDUT/MISO \
+sim:/SPI_mnrch_tb/iDUT/snd \
+sim:/SPI_mnrch_tb/iDUT/cmd \
+sim:/SPI_mnrch_tb/iDUT/done \
+sim:/SPI_mnrch_tb/iDUT/resp \
+sim:/SPI_mnrch_tb/iDUT/SCLK_div \
+sim:/SPI_mnrch_tb/iDUT/full \
+sim:/SPI_mnrch_tb/iDUT/shft \
+sim:/SPI_mnrch_tb/iDUT/bit_cntr \
+sim:/SPI_mnrch_tb/iDUT/shift_reg \
+sim:/SPI_mnrch_tb/iDUT/init \
+sim:/SPI_mnrch_tb/iDUT/set_done \
+sim:/SPI_mnrch_tb/iDUT/SCLK_ld \
+sim:/SPI_mnrch_tb/iDUT/done16 \
+sim:/SPI_mnrch_tb/iDUT/state \
+sim:/SPI_mnrch_tb/iDUT/nxt_state
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+run -all
+# chnl = 1, resp =     x
+add wave -position insertpoint  \
+sim:/SPI_mnrch_tb/iDUT/clk \
+sim:/SPI_mnrch_tb/iDUT/rst_n \
+sim:/SPI_mnrch_tb/iDUT/SS_n \
+sim:/SPI_mnrch_tb/iDUT/SCLK \
+sim:/SPI_mnrch_tb/iDUT/MOSI \
+sim:/SPI_mnrch_tb/iDUT/MISO \
+sim:/SPI_mnrch_tb/iDUT/snd \
+sim:/SPI_mnrch_tb/iDUT/cmd \
+sim:/SPI_mnrch_tb/iDUT/done \
+sim:/SPI_mnrch_tb/iDUT/resp \
+sim:/SPI_mnrch_tb/iDUT/SCLK_div \
+sim:/SPI_mnrch_tb/iDUT/full \
+sim:/SPI_mnrch_tb/iDUT/shft \
+sim:/SPI_mnrch_tb/iDUT/bit_cntr \
+sim:/SPI_mnrch_tb/iDUT/shift_reg \
+sim:/SPI_mnrch_tb/iDUT/init \
+sim:/SPI_mnrch_tb/iDUT/set_done \
+sim:/SPI_mnrch_tb/iDUT/SCLK_ld \
+sim:/SPI_mnrch_tb/iDUT/done16 \
+sim:/SPI_mnrch_tb/iDUT/state \
+sim:/SPI_mnrch_tb/iDUT/nxt_state
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SPI_mnrch_tb
+# Loading work.SPI_mnrch
+# Loading work.ADC128S
+# Loading work.SPI_ADC128S
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv(49)
+#    Time: 5235 ps  Iteration: 2  Instance: /SPI_mnrch_tb
+# Break in Module SPI_mnrch_tb at C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv line 49
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SPI_mnrch_tb
+# Loading work.SPI_mnrch
+# Loading work.ADC128S
+# Loading work.SPI_ADC128S
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv(49)
+#    Time: 5235 ps  Iteration: 2  Instance: /SPI_mnrch_tb
+# Break in Module SPI_mnrch_tb at C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv line 49
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SPI_mnrch_tb
+# Loading work.SPI_mnrch
+# Loading work.ADC128S
+# Loading work.SPI_ADC128S
+restart
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+# Break key hit
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SPI_mnrch_tb
+# Loading work.SPI_mnrch
+# Loading work.ADC128S
+# Loading work.SPI_ADC128S
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Success: chnl = 1, resp =  3072
+# Error: chnl = 1, resp =  3072
+# Error: chnl = 4, resp =  3073
+# Error: chnl = 4, resp =  3057
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv(91)
+#    Time: 20895 ps  Iteration: 2  Instance: /SPI_mnrch_tb
+# Break in Module SPI_mnrch_tb at C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv line 91
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# Compile of SPI_mnrch_tb.sv was successful.
+# 4 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.SPI_mnrch_tb
+# Loading work.SPI_mnrch
+# Loading work.ADC128S
+# Loading work.SPI_ADC128S
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Success: chnl = 1, resp =  3072
+# Success: chnl = 1, resp =  3073
+# Success: chnl = 4, resp =  3057
+# Success: chnl = 4, resp =  3060
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv(91)
+#    Time: 21165 ps  Iteration: 2  Instance: /SPI_mnrch_tb
+# Break in Module SPI_mnrch_tb at C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv line 91
+# End time: 10:42:06 on Mar 04,2025, Elapsed time: 0:33:14
+# Errors: 0, Warnings: 1

@@ -1,0 +1,15 @@
+C:/Users/jland/Desktop/collage/ece_551/Ex01/counter_tb.v {1 {vlog -work work -stats=none C:/Users/jland/Desktop/collage/ece_551/Ex01/counter_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module up_dwn_tb
+
+Top level modules:
+	up_dwn_tb
+
+} {} {}} C:/Users/jland/Desktop/collage/ece_551/Ex01/counter.sv {1 {vlog -work work -sv -stats=none {C:\Users\jland\Desktop\collage\ece_551\Ex01\counter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

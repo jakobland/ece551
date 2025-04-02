@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/Ex07/final
+vcadence_filt
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1739670465
+!i10b 1
+!s100 CGVVTfjMBJE;3;:KUSH;80
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Id@7<R09zLf71kVzI^;RHF2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/Users/jland/Desktop/collage/ece_551/Ex08
+w1739670414
+8C:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt.sv
+!i122 3
+L0 1 55
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1739670465.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+vcadence_filt_tb
+R0
+!s110 1739670466
+!i10b 1
+!s100 lMYPF8gb[]z]i2Y4g2^=c0
+R1
+I;b^SHG8;f`g;?a]UK10cF2
+R2
+S1
+R3
+w1739669811
+8C:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt_tb.sv
+!i122 4
+L0 1 95
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex08/cadence_filt_tb.sv|
+!i113 1
+R6
+R7

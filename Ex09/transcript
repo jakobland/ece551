@@ -1,0 +1,97 @@
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.nonoverlap_tb
+# vsim work.nonoverlap_tb 
+# Start time: 11:47:42 on Feb 22,2025
+# Loading sv_std.std
+# Loading work.nonoverlap_tb
+# Loading work.nonoverlap
+add wave -position insertpoint  \
+sim:/nonoverlap_tb/iDUT/clk \
+sim:/nonoverlap_tb/iDUT/rst_n \
+sim:/nonoverlap_tb/iDUT/highIn \
+sim:/nonoverlap_tb/iDUT/lowIn \
+sim:/nonoverlap_tb/iDUT/highOut \
+sim:/nonoverlap_tb/iDUT/lowOut \
+sim:/nonoverlap_tb/iDUT/highIn_edge \
+sim:/nonoverlap_tb/iDUT/lowIn_edge \
+sim:/nonoverlap_tb/iDUT/highIn_d \
+sim:/nonoverlap_tb/iDUT/lowIn_d \
+sim:/nonoverlap_tb/iDUT/deadTime_counter \
+sim:/nonoverlap_tb/iDUT/deadTime
+run -all
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(29)
+#    Time: 1300 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 29
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.nonoverlap_tb
+# Loading work.nonoverlap
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# either highOut or lowOut has been asserted during deadTime at time                  370
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(46)
+#    Time: 370 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 46
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.nonoverlap_tb
+# Loading work.nonoverlap
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# either highOut or lowOut has been asserted during deadTime at time                  370
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(46)
+#    Time: 370 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 46
+restart
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# either highOut or lowOut has been asserted during deadTime at time                  370
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(46)
+#    Time: 370 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 46
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.nonoverlap_tb
+# Loading work.nonoverlap
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# YAHOO!!! Test passed!
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(57)
+#    Time: 690 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 57
+# End time: 23:49:27 on Feb 22,2025, Elapsed time: 12:01:45
+# Errors: 0, Warnings: 2

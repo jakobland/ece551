@@ -1,0 +1,62 @@
+# Reading pref.tcl
+# OpenFile C:/Users/jland/Desktop/collage/ece_551/Ex10/Ex10.mpf
+# Loading project Ex10
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.nonoverlap_tb
+# vsim work.nonoverlap_tb 
+# Start time: 12:15:16 on Mar 17,2025
+# Loading sv_std.std
+# Loading work.nonoverlap_tb
+# Loading work.nonoverlap
+add wave -position insertpoint  \
+sim:/nonoverlap_tb/iDUT/clk \
+sim:/nonoverlap_tb/iDUT/rst_n \
+sim:/nonoverlap_tb/iDUT/highIn \
+sim:/nonoverlap_tb/iDUT/lowIn \
+sim:/nonoverlap_tb/iDUT/highOut \
+sim:/nonoverlap_tb/iDUT/lowOut \
+sim:/nonoverlap_tb/iDUT/highIn_edge \
+sim:/nonoverlap_tb/iDUT/lowIn_edge \
+sim:/nonoverlap_tb/iDUT/highIn_d \
+sim:/nonoverlap_tb/iDUT/lowIn_d \
+sim:/nonoverlap_tb/iDUT/deadTime_counter \
+sim:/nonoverlap_tb/iDUT/deadTime
+run -all
+# YAHOO!!! Test passed!
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(57)
+#    Time: 690 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 57
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.nonoverlap_tb
+# Loading work.nonoverlap
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# YAHOO!!! Test passed!
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(58)
+#    Time: 1010 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 58
+# Compile of nonoverlap.sv was successful.
+# Compile of nonoverlap_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.nonoverlap_tb
+# Loading work.nonoverlap
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# YAHOO!!! Test passed!
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv(60)
+#    Time: 1330 ps  Iteration: 1  Instance: /nonoverlap_tb
+# Break in Module nonoverlap_tb at C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv line 60
+# End time: 10:02:51 on Mar 19,2025, Elapsed time: 45:47:35
+# Errors: 0, Warnings: 2

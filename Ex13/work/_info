@@ -1,0 +1,212 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/HW03
+vbrushless
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1741203763
+!i10b 1
+!s100 hMTE4:Q9B1M_o?Oo3hJBT2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3z3:n__42b=E:TI4@C54z0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/jland/Desktop/collage/ece_551/Ex13
+w1741202212
+8C:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv
+!i122 45
+L0 1 111
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1741203763.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex12/brushless.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vbrushless_mtr_drv_tb
+R0
+Z9 !s110 1741203762
+!i10b 1
+!s100 ;ReVdLR]hG;fe9iGGA2zi1
+R2
+Io_^AFJ;T>8fOHM^fUN>m?2
+R3
+S1
+R4
+w1741202394
+8C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb.sv
+!i122 40
+L0 1 83
+R5
+r1
+!s85 0
+31
+Z10 !s108 1741203762.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb.sv|
+!i113 1
+R7
+R8
+vbrushless_mtr_drv_tb2
+R0
+R9
+!i10b 1
+!s100 ffFOXXBZ<flceXO`0M_880
+R2
+IVDh65ZL@Me=C?RNJ=cgb`3
+R3
+S1
+R4
+Z11 w1741198945
+8C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb2.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb2.sv
+!i122 41
+L0 1 59
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/brushless_mtr_drv_tb2.sv|
+!i113 1
+R7
+R8
+vcoil_volt
+R0
+R9
+!i10b 1
+!s100 4m?i0G0:H=2hDnM2Hd9JV0
+R2
+IJAhfA9;iC>R[1N2G0<@:`2
+R3
+S1
+R4
+R11
+8C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/coil_volt.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/coil_volt.sv
+!i122 42
+L0 6 146
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/coil_volt.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/coil_volt.sv|
+!i113 1
+R7
+R8
+vhub_wheel_model
+R0
+R1
+!i10b 1
+!s100 Xab4F<9U`I`1mP5@b_nMJ1
+R2
+ImzKUoQ2M`ziTbcdleBK?z0
+R3
+S1
+R4
+R11
+8C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/hub_wheel_model.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/hub_wheel_model.sv
+!i122 43
+L0 1 171
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/hub_wheel_model.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex13/Ex13_provided/hub_wheel_model.sv|
+!i113 1
+R7
+R8
+vmtr_drv
+R0
+R1
+!i10b 1
+!s100 ?cb;UL75W^oP@W29h1W<W3
+R2
+IQ;7POkW3YahmUZ]_4bdFO1
+R3
+S1
+R4
+w1741202220
+8C:/Users/jland/Desktop/collage/ece_551/Ex13/mtr_drv.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex13/mtr_drv.sv
+!i122 44
+L0 1 85
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex13/mtr_drv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex13/mtr_drv.sv|
+!i113 1
+R7
+R8
+vnonoverlap
+R0
+R1
+!i10b 1
+!s100 MiFci8WA[PoWU>]9h4Nd:1
+R2
+IXmX9:IOmDbK_DZXVEN98C1
+R3
+S1
+R4
+w1741202450
+8C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv
+!i122 46
+L0 1 60
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv|
+!i113 1
+R7
+R8
+vPWM
+R0
+R1
+!i10b 1
+!s100 dk2MaOV?zCR2H8[Pd_6>O1
+R2
+IDTOYFVaV8oFziNmUUUiG`2
+R3
+S1
+R4
+w1741202216
+8C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv
+!i122 47
+L0 1 27
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv|
+!i113 1
+R7
+R8
+n@p@w@m

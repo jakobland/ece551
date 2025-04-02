@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/Ex03
+vincline_sat
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1738949723
+!i10b 1
+!s100 2e;`MZQE15E^=Bf6VzLAU1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8DYgkGZ_eR3;K>3DEzD1k2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/jland/Desktop/collage/ece_551/Ex07
+w1738949618
+8C:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat.sv
+!i122 2
+L0 1 10
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1738949723.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vincline_sat_tb
+R0
+R1
+!i10b 1
+!s100 XU?Y2o0LdRaAG13RNXd_[1
+R2
+IZn9<D<GWoW8]n5nPz1TQC2
+R3
+S1
+R4
+w1738949685
+8C:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat_tb.sv
+!i122 3
+L0 1 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex07/incline_sat_tb.sv|
+!i113 1
+R7
+R8

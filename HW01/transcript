@@ -1,0 +1,234 @@
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ex03_tb
+# vsim work.ex03_tb 
+# Start time: 20:50:48 on Feb 02,2025
+# Loading sv_std.std
+# Loading work.ex03_tb
+# Loading work.ex03
+add wave -position insertpoint sim:/ex03_tb/iDUT/*
+run -all
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(28)
+#    Time: 45 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 28
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(28)
+#    Time: 52 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 28
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(28)
+#    Time: 52 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 28
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 11 ps ###############
+#   Active process: /ex03_tb/iDUT/#IMPLICIT-WIRE(reset_and_md)#15 @ sub-iteration 0
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv:5
+#       Signal: /ex03_tb/iDUT/#implicit-wire#0 @ sub-iteration 1 at Value St0 (C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:15)
+#   Active process: /ex03_tb/iDUT/#NOT#15 @ sub-iteration 2
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:15
+#       Signal: /ex03_tb/iDUT/#implicit-wire#mq @ sub-iteration 3 at Value St1 (C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:8)
+#   Active process: /ex03_tb/iDUT/#IMPLICIT-WIRE(mq)#8 @ sub-iteration 4
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv:5
+#     Assigning reg to (val=1)
+#   Active process: /ex03_tb/iDUT/#IMPLICIT-WIRE(mq)#16 @ sub-iteration 5
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv:5
+#       Signal: /ex03_tb/iDUT/#implicit-wire#1 @ sub-iteration 6 at Value St1 (C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:16)
+#   Active process: /ex03_tb/iDUT/#NOT#16 @ sub-iteration 7
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:16
+#       Signal: /ex03_tb/iDUT/md @ sub-iteration 8 at Value unknown (C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:9)
+#   Active process: /ex03_tb/iDUT/#NAND#14 @ sub-iteration 9
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:14
+#       Signal: /ex03_tb/iDUT/#implicit-wire#reset_and_md @ sub-iteration 10 at Value St1 (C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset.sv:8)
+#   Active process: /ex03_tb/iDUT/#IMPLICIT-WIRE(reset_and_md)#8 @ sub-iteration 11
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv:5
+#     Assigning reg to (val=1)
+#   Active process: /ex03_tb/iDUT/#IMPLICIT-WIRE(reset_and_md)#15 @ sub-iteration 12
+#     Source: C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv:5
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 11 ps.
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(28)
+#    Time: 52 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 28
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(28)
+#    Time: 52 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 28
+restart
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(36)
+#    Time: 97 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 36
+restart
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(36)
+#    Time: 97 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 36
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(36)
+#    Time: 97 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 36
+restart
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(36)
+#    Time: 97 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 36
+add wave -position insertpoint sim:/ex03_tb/iDUT/*
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(36)
+#    Time: 127 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 36
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(36)
+#    Time: 117 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 36
+# Compile of ex03_w_reset.sv was successful.
+# Compile of ex03_w_reset_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ex03_tb
+# Loading work.ex03
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv(33)
+#    Time: 97 ps  Iteration: 0  Instance: /ex03_tb
+# Break in Module ex03_tb at C:/Users/jland/Desktop/collage/ece_551/Ex03/ex03_w_reset_tb.sv line 33
+# End time: 22:01:57 on Feb 03,2025, Elapsed time: 25:11:09
+# Errors: 0, Warnings: 1

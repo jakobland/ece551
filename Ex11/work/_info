@@ -1,0 +1,115 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/Ex12
+vADC128S
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1741106493
+!i10b 1
+!s100 iL2zkc^KeI[4_PCXk?lB03
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVo8^eOBz:X5ckPDE?jCBV0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/jland/Desktop/collage/ece_551/Ex11
+w1741020463
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv
+!i122 41
+L0 1 112
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1741106492.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv|
+!i113 1
+Z6 o-work work -sv
+Z7 tCvgOpt 0
+n@a@d@c128@s
+vSPI_ADC128S
+R0
+R1
+!i10b 1
+!s100 93oj0i;UV@::cHMPGHMJ>1
+R2
+I9a:k]miY2EVUCV9Ai09Il3
+R3
+S1
+R4
+w1741020464
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv
+!i122 42
+L0 1 140
+R5
+r1
+!s85 0
+31
+Z8 !s108 1741106493.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv|
+!i113 1
+R6
+R7
+n@s@p@i_@a@d@c128@s
+vSPI_mnrch
+R0
+R1
+!i10b 1
+!s100 I=X0Sj38YB[Rb^BdJST7d1
+R2
+IAI@:d9Vg>jPCAVP241EM=0
+R3
+S1
+R4
+w1741105392
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv
+!i122 43
+L0 1 145
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv|
+!i113 1
+R6
+R7
+n@s@p@i_mnrch
+vSPI_mnrch_tb
+R0
+R1
+!i10b 1
+!s100 ?]ADQL3Y;ll^E4Of5jdY@1
+R2
+IIX6Q?`C10HL49l1@78j[J1
+R3
+S1
+R4
+w1741106474
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv
+!i122 44
+L0 1 95
+R5
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv|
+!i113 1
+R6
+R7
+n@s@p@i_mnrch_tb

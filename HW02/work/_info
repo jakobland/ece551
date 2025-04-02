@@ -1,0 +1,415 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/Ex08
+vcadence_filt
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1739740385
+!i10b 1
+!s100 CGVVTfjMBJE;3;:KUSH;80
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I:d;Re?;j5oKH7QRTLV9OA1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z3 dC:/Users/jland/Desktop/collage/ece_551/HW02
+w1739670414
+8C:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt.sv
+!i122 27
+L0 1 55
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1739740385.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt.sv|
+!i113 1
+Z5 o-work work -sv
+Z6 tCvgOpt 0
+vcadence_filt_tb
+R0
+Z7 !s110 1739740386
+!i10b 1
+!s100 lMYPF8gb[]z]i2Y4g2^=c0
+R1
+IHP9`CC3Z72VDdgA[CV:hj3
+R2
+S1
+R3
+w1739669811
+8C:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt_tb.sv
+!i122 28
+L0 1 95
+R4
+r1
+!s85 0
+31
+Z8 !s108 1739740386.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/cadence_filt_tb.sv|
+!i113 1
+R5
+R6
+vdesiredDrive
+R0
+R7
+!i10b 1
+!s100 ^9eXQol4ZhE`iPmGP;<=61
+R1
+I=VJWC9dXanYgdo=]ch:9i3
+R2
+S1
+R3
+w1739381108
+8C:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive.sv
+!i122 29
+L0 1 52
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive.sv|
+!i113 1
+R5
+R6
+ndesired@drive
+vdesiredDrive_tb
+R0
+R7
+!i10b 1
+!s100 RV5UJJC2Ln[1jPaOLd]E_0
+R1
+IR0BNP^Ke;YGR9=eBQTakn2
+R2
+S1
+R3
+w1739740080
+8C:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive_tb.sv
+!i122 30
+L0 1 112
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/desiredDrive_tb.sv|
+!i113 1
+R5
+R6
+ndesired@drive_tb
+vdff_with_everything
+R0
+R7
+!i10b 1
+!s100 1G;hi_ComZDdS9R0TmAH93
+R1
+Ibh?6U8lG`94D23f`9]a^h1
+R2
+S1
+R3
+Z9 w1739739587
+Z10 8C:/Users/jland/Desktop/collage/ece_551/HW02/HW2_prob3.sv
+Z11 FC:/Users/jland/Desktop/collage/ece_551/HW02/HW2_prob3.sv
+!i122 31
+L0 53 22
+R4
+r1
+!s85 0
+31
+R8
+Z12 !s107 C:/Users/jland/Desktop/collage/ece_551/HW02/HW2_prob3.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/HW2_prob3.sv|
+!i113 1
+R5
+R6
+vdff_with_reset_and_enable
+R0
+R7
+!i10b 1
+!s100 Y`=`GdJgh<aceh7C^Tlc]2
+R1
+I=0kVYV@oZT8g5gDM>DJ:g3
+R2
+S1
+R3
+R9
+R10
+R11
+!i122 31
+L0 35 16
+R4
+r1
+!s85 0
+31
+R8
+R12
+R13
+!i113 1
+R5
+R6
+vdff_with_set_and_enable
+R0
+R7
+!i10b 1
+!s100 lj;@Fkn9l8h5nb[N`WW@n2
+R1
+I1QVY3SXn3RnYgG6czHDUD1
+R2
+S1
+R3
+R9
+R10
+R11
+!i122 31
+L0 17 16
+R4
+r1
+!s85 0
+31
+R8
+R12
+R13
+!i113 1
+R5
+R6
+vincline_sat
+R0
+R7
+!i10b 1
+!s100 2e;`MZQE15E^=Bf6VzLAU1
+R1
+I5zlDcnPCz;28nTC8IezdK2
+R2
+S1
+R3
+w1738949618
+8C:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat.sv
+!i122 32
+L0 1 10
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat.sv|
+!i113 1
+R5
+R6
+vincline_sat_tb
+R0
+Z14 !s110 1739740387
+!i10b 1
+!s100 <_;JMh?fY<^gKPS5<5lCP1
+R1
+I4FH:]5;`<:oeO1gD7Iie=1
+R2
+S1
+R3
+w1739737638
+8C:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat_tb.sv
+!i122 33
+L0 1 49
+R4
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/incline_sat_tb.sv|
+!i113 1
+R5
+R6
+vlatch
+R0
+R7
+!i10b 1
+!s100 _?fiE;ILnT1K;J7Cab>b91
+R1
+IPPJaWLPnWKfYV52UDaVK32
+R2
+S1
+R3
+R9
+R10
+R11
+!i122 31
+L0 2 13
+R4
+r1
+!s85 0
+31
+R8
+R12
+R13
+!i113 1
+R5
+R6
+vPWM
+R0
+!s110 1739902205
+!i10b 1
+!s100 Dn]=HfQXF3P4W>;31dOea2
+R1
+Ib2zI7@L]NZZa2CH[8mJNW2
+R2
+S1
+R3
+w1739902199
+8C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv
+!i122 39
+L0 1 27
+R4
+r1
+!s85 0
+31
+!s108 1739902205.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv|
+!i113 1
+R5
+R6
+n@p@w@m
+vPWM_tb
+R0
+!s110 1739902173
+!i10b 1
+!s100 RC6]37e36fO;oBaD]a^D_1
+R1
+I?D=X7RcC6<MeCoi319_eI0
+R2
+S1
+R3
+w1739902099
+8C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv
+!i122 38
+L0 1 36
+R4
+r1
+!s85 0
+31
+!s108 1739902173.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv|
+!i113 1
+R5
+R6
+n@p@w@m_tb
+vshift_rot
+R0
+R14
+!i10b 1
+!s100 d0^Q3B:lB7D@dFnTn`4=@0
+R1
+Ied`NnT8AdNEhcXI4<`LZd3
+R2
+S1
+R3
+w1739739975
+8C:/Users/jland/Desktop/collage/ece_551/HW02/shifter.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/shifter.sv
+!i122 34
+L0 1 20
+R4
+r1
+!s85 0
+31
+Z15 !s108 1739740387.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/shifter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/shifter.sv|
+!i113 1
+R5
+R6
+Xshift_rot_sv_unit
+R0
+Z16 !s110 1739739931
+VYo:JgkJ1c<hZjgXnV^TlU3
+r1
+!s85 0
+!i10b 1
+!s100 Knb6>Y26<C39L[I_3Ql?93
+IYo:JgkJ1c<hZjgXnV^TlU3
+!i103 1
+S1
+R3
+Z17 w1739737022
+8C:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot.sv
+!i122 7
+L0 20 0
+R4
+31
+Z18 !s108 1739739931.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot.sv|
+!i113 1
+R5
+R6
+vshift_rot_tb
+R0
+R14
+!i10b 1
+!s100 Fn4z5^BiV>n`a7ie5GdgF2
+R1
+IK27:0EkEiZF_4`]@OaM?i3
+R2
+S1
+R3
+w1739739993
+8C:/Users/jland/Desktop/collage/ece_551/HW02/shifter_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/shifter_tb.sv
+!i122 35
+L0 1 93
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/shifter_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/shifter_tb.sv|
+!i113 1
+R5
+R6
+Xshift_rot_tb_sv_unit
+R0
+R16
+Vaa81gHY]EDhI81gBTn0BV0
+r1
+!s85 0
+!i10b 1
+!s100 hzJhgj@b8i9KPaQh8EhO43
+Iaa81gHY]EDhI81gBTn0BV0
+!i103 1
+S1
+R3
+R17
+8C:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot_tb.sv
+!i122 8
+L0 93 0
+R4
+31
+R18
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW02/shift_rot_tb.sv|
+!i113 1
+R5
+R6

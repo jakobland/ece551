@@ -1,0 +1,319 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/Ex11
+vADC128S
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1741110968
+!i10b 1
+!s100 iL2zkc^KeI[4_PCXk?lB03
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVo8^eOBz:X5ckPDE?jCBV0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/jland/Desktop/collage/ece_551/HW03
+w1741020463
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv
+!i122 25
+L0 1 112
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1741110968.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/ADC128S.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+n@a@d@c128@s
+vnonoverlap
+R0
+Z9 !s110 1741110753
+!i10b 1
+!s100 4QA5:3VA]g@^KcBS<oidB1
+R2
+ID?XD9ClL`B69^Y0NRLY[h0
+R3
+S1
+R4
+w1740248611
+8C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv
+!i122 19
+L0 1 60
+R5
+r1
+!s85 0
+31
+Z10 !s108 1741110753.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap.sv|
+!i113 1
+R7
+R8
+vnonoverlap_tb
+R0
+R9
+!i10b 1
+!s100 cbWNehl^m?7aY67DKOVPn3
+R2
+I`@Uc>SE^mCBdS@E4=QnDP3
+R3
+S1
+R4
+w1740247271
+8C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv
+!i122 20
+L0 1 61
+R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex10/nonoverlap_tb.sv|
+!i113 1
+R7
+R8
+vPWM
+R0
+Z11 !s110 1741110597
+!i10b 1
+!s100 Dn]=HfQXF3P4W>;31dOea2
+R2
+Ib2zI7@L]NZZa2CH[8mJNW2
+R3
+S1
+R4
+w1739902199
+8C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv
+!i122 17
+L0 1 27
+R5
+r1
+!s85 0
+31
+Z12 !s108 1741110597.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM.sv|
+!i113 1
+R7
+R8
+n@p@w@m
+vPWM_tb
+R0
+R11
+!i10b 1
+!s100 n_JeceSHmCbd2LUTeljlW1
+R2
+Ibo>2W;J;9jAT`?TU[;I[_3
+R3
+S1
+R4
+w1739902468
+8C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv
+!i122 18
+L0 1 40
+R5
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv|
+!i113 1
+R7
+R8
+n@p@w@m_tb
+vSPI_ADC128S
+R0
+R1
+!i10b 1
+!s100 93oj0i;UV@::cHMPGHMJ>1
+R2
+I9a:k]miY2EVUCV9Ai09Il3
+R3
+S1
+R4
+w1741020464
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv
+!i122 26
+L0 1 140
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_ADC128S.sv|
+!i113 1
+R7
+R8
+n@s@p@i_@a@d@c128@s
+vSPI_mnrch
+R0
+Z13 !s110 1741110969
+!i10b 1
+!s100 I=X0Sj38YB[Rb^BdJST7d1
+R2
+IAI@:d9Vg>jPCAVP241EM=0
+R3
+S1
+R4
+w1741105392
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv
+!i122 27
+L0 1 145
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch.sv|
+!i113 1
+R7
+R8
+n@s@p@i_mnrch
+vSPI_mnrch_tb
+R0
+R13
+!i10b 1
+!s100 n;R;@FIPSUG[>NcmHj[_W0
+R2
+Iz^IL3Q^0F8oHTjVDI^RRO3
+R3
+S1
+R4
+w1741110964
+8C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv
+!i122 28
+L0 1 96
+R5
+r1
+!s85 0
+31
+!s108 1741110969.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex11/SPI_mnrch_tb.sv|
+!i113 1
+R7
+R8
+n@s@p@i_mnrch_tb
+vtelemetry
+R0
+Z14 !s110 1741110137
+!i10b 1
+!s100 LSA^H^J[M02o[ALHhOS5]0
+R2
+I:NRDlN7Pi[dnFg?ECG^3o0
+R3
+S1
+R4
+w1741110018
+8C:/Users/jland/Desktop/collage/ece_551/HW03/telemetry.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW03/telemetry.sv
+!i122 13
+L0 1 192
+R5
+r1
+!s85 0
+31
+Z15 !s108 1741110137.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW03/telemetry.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW03/telemetry.sv|
+!i113 1
+R7
+R8
+vtelemetry_tb
+R0
+R14
+!i10b 1
+!s100 eHDmd6a=J=[6D`Q@JeYFQ2
+R2
+I1lQB2Rd@:Q3X^mboNAT`i1
+R3
+S1
+R4
+w1741110125
+8C:/Users/jland/Desktop/collage/ece_551/HW03/telemetry_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW03/telemetry_tb.sv
+!i122 14
+L0 1 92
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW03/telemetry_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW03/telemetry_tb.sv|
+!i113 1
+R7
+R8
+vUART_rcv
+R0
+R14
+!i10b 1
+!s100 e?H4N6Ja[5LK1c7S6k>G20
+R2
+IKD^<g9`o7z9GF`]IJLDDK0
+R3
+S1
+R4
+w1741107124
+8C:/Users/jland/Desktop/collage/ece_551/HW03/UART_rcv.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW03/UART_rcv.sv
+!i122 15
+Z16 L0 1 111
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW03/UART_rcv.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW03/UART_rcv.sv|
+!i113 1
+R7
+R8
+n@u@a@r@t_rcv
+vUART_tx
+R0
+R14
+!i10b 1
+!s100 :Q@`FTZ_K_VTzGPje<fZh0
+R2
+I;OeL`c9`1oR3j5jCHf0>K3
+R3
+S1
+R4
+w1741107122
+8C:/Users/jland/Desktop/collage/ece_551/HW03/UART_tx.sv
+FC:/Users/jland/Desktop/collage/ece_551/HW03/UART_tx.sv
+!i122 16
+R16
+R5
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/jland/Desktop/collage/ece_551/HW03/UART_tx.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/HW03/UART_tx.sv|
+!i113 1
+R7
+R8
+n@u@a@r@t_tx

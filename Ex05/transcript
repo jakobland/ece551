@@ -1,0 +1,76 @@
+# Compile of PID_cntrl.sv was successful.
+# Compile of PID_cntrl_tb.sv was successful.
+# Compile of plant.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.PID_cntrl_tb
+# vsim -voptargs="+acc" work.PID_cntrl_tb 
+# Start time: 11:55:56 on Feb 03,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.PID_cntrl_tb(fast)
+# Loading work.PID(fast)
+# Loading work.plant(fast)
+add wave -position insertpoint  \
+sim:/PID_cntrl_tb/target_curr \
+sim:/PID_cntrl_tb/avg_curr \
+sim:/PID_cntrl_tb/drv_duty
+run -all
+# ** Note: $stop    : I:/ece551/ex05/PID_cntrl_tb.sv(36)
+#    Time: 51005 ns  Iteration: 1  Instance: /PID_cntrl_tb
+# Break in Module PID_cntrl_tb at I:/ece551/ex05/PID_cntrl_tb.sv line 36
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.PID_cntrl_tb(fast)
+# Loading work.PID(fast)
+# Loading work.plant(fast)
+run 20000ns
+# Compile of PID_cntrl.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.PID_cntrl_tb(fast)
+# Loading work.PID(fast)
+# Loading work.plant(fast)
+run 20000ns
+# Compile of PID_cntrl.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.PID_cntrl_tb(fast)
+# Loading work.PID(fast)
+# Loading work.plant(fast)
+run 20000ns
+# Compile of PID_cntrl.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.PID_cntrl_tb(fast)
+# Loading work.PID(fast)
+# Loading work.plant(fast)
+run 20000ns
+# Compile of PID_cntrl.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.PID_cntrl_tb(fast)
+# Loading work.PID(fast)
+# Loading work.plant(fast)
+run 20000ns
+# End time: 12:05:01 on Feb 03,2025, Elapsed time: 0:09:05
+# Errors: 0, Warnings: 2

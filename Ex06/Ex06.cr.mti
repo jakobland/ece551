@@ -1,0 +1,11 @@
+I:/ece551/ex06/shift_rot.sv {2 {vlog -work work -vopt -sv -stats=none {I:\ece551\ex06\shift_rot.sv}
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module shift_rot
+** Warning: I:\ece551\ex06\shift_rot.sv(20): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: I:\ece551\ex06\shift_rot.sv(21): (vlog-2284) Empty $unit scope found.
+-- Compiling package shift_rot_sv_unit
+
+Top level modules:
+	shift_rot
+
+} {} {}}

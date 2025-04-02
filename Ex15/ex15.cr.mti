@@ -1,0 +1,31 @@
+C:/Users/jland/Desktop/collage/ece_551/Ex15/PB_release.sv {1 {vlog -work work -sv -stats=none C:/Users/jland/Desktop/collage/ece_551/Ex15/PB_release.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module PB_release
+
+Top level modules:
+	PB_release
+
+} {} {}} C:/Users/jland/Desktop/collage/ece_551/Ex15/nonoverlap_test.sv {1 {vlog -work work -sv -stats=none C:/Users/jland/Desktop/collage/ece_551/Ex15/nonoverlap_test.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nonoverlap_test
+-- Compiling module stim
+-- Compiling module observer
+
+Top level modules:
+	nonoverlap_test
+
+} {} {}} C:/Users/jland/Desktop/collage/ece_551/Ex15/reset_synch.sv {1 {vlog -work work -sv -stats=none C:/Users/jland/Desktop/collage/ece_551/Ex15/reset_synch.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reset_synch
+
+Top level modules:
+	reset_synch
+
+} {} {}} C:/Users/jland/Desktop/collage/ece_551/Ex15/nonoverlap.sv {1 {vlog -work work -sv -stats=none C:/Users/jland/Desktop/collage/ece_551/Ex15/nonoverlap.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module nonoverlap
+
+Top level modules:
+	nonoverlap
+
+} {} {}}

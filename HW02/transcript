@@ -1,0 +1,107 @@
+# Compile of PWM.sv failed with 2 errors.
+# Compile of PWM_tb.sv was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of PWM.sv was successful with warnings.
+# Compile of PWM_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of PWM.sv was successful.
+vsim work.PWM
+# vsim work.PWM 
+# Start time: 12:10:26 on Feb 18,2025
+# Loading sv_std.std
+# Loading work.PWM
+quit -sim
+# End time: 12:10:34 on Feb 18,2025, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 7
+vsim work.PWM_tb
+# vsim work.PWM_tb 
+# Start time: 12:10:39 on Feb 18,2025
+# Loading sv_std.std
+# Loading work.PWM_tb
+# ** Error: (vsim-3033) Instantiation of 'iDUT' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /PWM_tb File: C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv Line: 5
+#         Searched libraries:
+#             C:/Users/jland/Desktop/collage/ece_551/HW02/work
+# Error loading design
+# End time: 12:10:39 on Feb 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# reading C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project Ex09
+# Compile of PWM.sv was successful.
+# Compile of PWM_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.PWM_tb
+# vsim work.PWM_tb 
+# Start time: 12:12:30 on Feb 18,2025
+# Loading sv_std.std
+# Loading work.PWM_tb
+# ** Error: (vsim-3033) Instantiation of 'iDUT' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /PWM_tb File: C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv Line: 5
+#         Searched libraries:
+#             C:/Users/jland/Desktop/collage/ece_551/Ex09/work
+# Error loading design
+# End time: 12:12:30 on Feb 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Compile of PWM.sv was successful.
+# Compile of PWM_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.PWM_tb
+# vsim work.PWM_tb 
+# Start time: 12:12:55 on Feb 18,2025
+# Loading sv_std.std
+# Loading work.PWM_tb
+# Loading work.PWM
+add wave -position insertpoint  \
+sim:/PWM_tb/iDUT/clk \
+sim:/PWM_tb/iDUT/rst_n \
+sim:/PWM_tb/iDUT/duty \
+sim:/PWM_tb/iDUT/PWM_sig \
+sim:/PWM_tb/iDUT/PWM_synch \
+sim:/PWM_tb/iDUT/cnt \
+sim:/PWM_tb/iDUT/activate_pwm
+run -all
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv(33)
+#    Time: 163860 ps  Iteration: 1  Instance: /PWM_tb
+# Break in Module PWM_tb at C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv line 33
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of PWM.sv was successful.
+# Compile of PWM_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv(33)
+#    Time: 163860 ps  Iteration: 1  Instance: /PWM_tb
+# Break in Module PWM_tb at C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv line 33
+# Compile of PWM.sv was successful.
+# Compile of PWM_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.PWM_tb
+# Loading work.PWM
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv(37)
+#    Time: 204820 ps  Iteration: 1  Instance: /PWM_tb
+# Break in Module PWM_tb at C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv line 37
+add wave -position insertpoint  \
+sim:/PWM_tb/clk \
+sim:/PWM_tb/rst_n \
+sim:/PWM_tb/PWM_sig \
+sim:/PWM_tb/PWM_synch \
+sim:/PWM_tb/duty
+restart
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv(37)
+#    Time: 204820 ps  Iteration: 1  Instance: /PWM_tb
+# Break in Module PWM_tb at C:/Users/jland/Desktop/collage/ece_551/Ex09/PWM_tb.sv line 37
+# End time: 12:16:43 on Feb 18,2025, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 1
