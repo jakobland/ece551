@@ -1,0 +1,37 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jland/Desktop/collage/ece_551/Ex17
+vA2D_intf
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1743786371
+!i10b 1
+!s100 zf^dc``MzYAI2^]4O[Mg61
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+I_?6=bo4z0=ZXkYGR26i_S0
+VDg1SIo80bB@j0V0VzS_@n1
+S1
+dC:/Users/jland/Desktop/collage/ece_551/Ex18
+w1743786355
+8C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv
+!i122 1
+L0 1 152
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1743786370.000000
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv|
+!i113 1
+o-work work -sv
+tCvgOpt 0
+n@a2@d_intf
