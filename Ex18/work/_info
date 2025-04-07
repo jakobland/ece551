@@ -10,28 +10,132 @@ z2
 cModel Technology
 dC:/Users/jland/Desktop/collage/ece_551/Ex17
 vA2D_intf
-DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-!s110 1743786371
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1744043610
 !i10b 1
-!s100 zf^dc``MzYAI2^]4O[Mg61
-!s11b Dg1SIo80bB@j0V0VzS_@n1
-I_?6=bo4z0=ZXkYGR26i_S0
-VDg1SIo80bB@j0V0VzS_@n1
+!s100 @MNno[SQ6`zb<fDemk]@^1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IThJIR?z5NCl_AfKHi4?X<3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-dC:/Users/jland/Desktop/collage/ece_551/Ex18
-w1743786355
+Z4 dC:/Users/jland/Desktop/collage/ece_551/Ex18
+w1744042535
 8C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv
 FC:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv
-!i122 1
-L0 1 152
-OV;L;2020.1;71
+!i122 16
+L0 1 158
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1743786370.000000
+Z6 !s108 1744043610.000000
 !s107 C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_intf.sv|
 !i113 1
-o-work work -sv
-tCvgOpt 0
+Z7 o-work work -sv
+Z8 tCvgOpt 0
 n@a2@d_intf
+vA2D_tb
+R0
+R1
+!i10b 1
+!s100 c@zFgP9Fz2Uo:4IXODE@N1
+R2
+IB;ALDHFjF?Q2iM5E7]:HY1
+R3
+S1
+R4
+w1744043558
+8C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_tb.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_tb.sv
+!i122 17
+L0 1 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_tb.sv|
+!i113 1
+R7
+R8
+n@a2@d_tb
+vADC128S
+R0
+R1
+!i10b 1
+!s100 iL2zkc^KeI[4_PCXk?lB03
+R2
+I=@zA]06P=hRjZI906WR0>0
+R3
+S1
+R4
+w1744043071
+8C:/Users/jland/Desktop/collage/ece_551/Ex18/ADC128S.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex18/ADC128S.sv
+!i122 18
+L0 1 112
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex18/ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex18/ADC128S.sv|
+!i113 1
+R7
+R8
+n@a@d@c128@s
+vSPI_ADC128S
+R0
+R1
+!i10b 1
+!s100 93oj0i;UV@::cHMPGHMJ>1
+R2
+I^5SAdz<UG^FMVGhEcg:200
+R3
+S1
+R4
+w1744042662
+8C:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_ADC128S.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_ADC128S.sv
+!i122 19
+L0 1 140
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_ADC128S.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_ADC128S.sv|
+!i113 1
+R7
+R8
+n@s@p@i_@a@d@c128@s
+vSPI_mnrch
+R0
+R1
+!i10b 1
+!s100 I=X0Sj38YB[Rb^BdJST7d1
+R2
+IWhISW4Sz80G;al7J7fiSU0
+R3
+S1
+R4
+w1741105392
+8C:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_mnrch.sv
+FC:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_mnrch.sv
+!i122 20
+L0 1 145
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_mnrch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/jland/Desktop/collage/ece_551/Ex18/SPI_mnrch.sv|
+!i113 1
+R7
+R8
+n@s@p@i_mnrch

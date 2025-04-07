@@ -1,6 +1,71 @@
-# Compile of A2D_intf.sv failed with 1 errors.
-# Compile of A2D_intf.sv failed with 11 errors.
-# Compile of A2D_intf.sv failed with 1 errors.
-# Compile of A2D_intf.sv failed with 1 errors.
-# Compile of A2D_intf.sv was successful with warnings.
 # Compile of A2D_intf.sv was successful.
+# Compile of A2D_tb.sv was successful.
+# Compile of ADC128S.sv was successful.
+# Compile of SPI_ADC128S.sv was successful.
+# Compile of SPI_mnrch.sv was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.A2D_tb
+# vsim work.A2D_tb 
+# Start time: 11:33:42 on Apr 07,2025
+# Loading sv_std.std
+# Loading work.A2D_tb
+# Loading work.ADC128S
+# Loading work.SPI_ADC128S
+# Loading work.A2D_intf
+# Loading work.SPI_mnrch
+add wave -position insertpoint  \
+sim:/A2D_tb/iA2D/clk \
+sim:/A2D_tb/iA2D/rst_n \
+sim:/A2D_tb/iA2D/MISO \
+sim:/A2D_tb/iA2D/batt \
+sim:/A2D_tb/iA2D/curr \
+sim:/A2D_tb/iA2D/brake \
+sim:/A2D_tb/iA2D/torque \
+sim:/A2D_tb/iA2D/SS_n \
+sim:/A2D_tb/iA2D/SCLK \
+sim:/A2D_tb/iA2D/MOSI \
+sim:/A2D_tb/iA2D/delay_counter \
+sim:/A2D_tb/iA2D/snd \
+sim:/A2D_tb/iA2D/done \
+sim:/A2D_tb/iA2D/cmd \
+sim:/A2D_tb/iA2D/resp \
+sim:/A2D_tb/iA2D/next_transaction \
+sim:/A2D_tb/iA2D/cnv_complete \
+sim:/A2D_tb/iA2D/channel_ctr \
+sim:/A2D_tb/iA2D/channel \
+sim:/A2D_tb/iA2D/state \
+sim:/A2D_tb/iA2D/nxt_state
+run -all
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# WARNING: Only channels 0,1,4 of A2D valid for this version of ADC128S
+# 
+# ** Note: $stop    : C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_tb.sv(22)
+#    Time: 10000010 ps  Iteration: 0  Instance: /A2D_tb
+# Break in Module A2D_tb at C:/Users/jland/Desktop/collage/ece_551/Ex18/A2D_tb.sv line 22
