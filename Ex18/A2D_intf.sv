@@ -16,14 +16,15 @@ module A2D_intf(clk, rst_n, MISO, batt, curr, brake, torque, SS_n, SCLK, MOSI);
 	logic [13:0] delay_counter;		// delay counter
 	logic snd;						// send signal
 	logic done;						// signifies the SPI is done
-	logic [15:0] cmd;
-	logic [15:0] resp;
-	logic next_transaction;
-	logic cnv_complete;
-	logic [1:0] channel_ctr;
+	logic [15:0] cmd;					// command
+	logic [15:0] resp;					// response
+	logic next_transaction;					// sends signal to do next transaction
+	logic cnv_complete;					// signals completed conversion
+	logic [1:0] channel_ctr;				// round-robin counter
 
 	SPI_mnrch iSPI_M(clk, rst_n, SS_n, SCLK, MOSI, MISO, snd, cmd, done, resp);
 
+	// starts next transaction when the delay counter is full
 	assign next_transaction = &delay_counter;
 
 	// delay counter
@@ -34,6 +35,7 @@ module A2D_intf(clk, rst_n, MISO, batt, curr, brake, torque, SS_n, SCLK, MOSI);
 			delay_counter <= delay_counter + 1;
 	end
 
+	// assigns outputs based on the current channel counter and if the conversion is complete
 	always_ff @(posedge clk, negedge rst_n) begin
 		if (!rst_n)
 			batt <= 0;
@@ -59,15 +61,17 @@ module A2D_intf(clk, rst_n, MISO, batt, curr, brake, torque, SS_n, SCLK, MOSI);
 			torque <= resp[11:0];
 	end
 
+	// assigning a signal enum for each channel
 	typedef enum logic [2:0] {
-	BATT = 3'b000,
-	CURR = 3'b001,
-	TORQUE = 3'b011,
-	BRAKE = 3'b100
+		BATT = 3'b000,
+		CURR = 3'b001,
+		TORQUE = 3'b011,
+		BRAKE = 3'b100
 	} signal;
 
 	signal channel;
 
+	// assigning a states enum for different stages of SM
 	typedef enum reg [1:0] {IDLE, REQ, WAIT, READ} states_t;
 
 	states_t state, nxt_state;
@@ -78,6 +82,7 @@ module A2D_intf(clk, rst_n, MISO, batt, curr, brake, torque, SS_n, SCLK, MOSI);
 					 (channel_ctr == 2'b10) ? TORQUE:
 					 BRAKE;
 
+	// round-robin counter
 	always_ff @(posedge clk, negedge rst_n) begin
 		if (!rst_n)
 			channel_ctr <= 0;
@@ -85,7 +90,7 @@ module A2D_intf(clk, rst_n, MISO, batt, curr, brake, torque, SS_n, SCLK, MOSI);
 			channel_ctr <= channel_ctr + 1;
 	end
 
-	// states
+	// state machine states flip flop
 	always_ff @(posedge clk, negedge rst_n) begin
 		if (!rst_n)
 			state <= IDLE;
@@ -102,6 +107,7 @@ module A2D_intf(clk, rst_n, MISO, batt, curr, brake, torque, SS_n, SCLK, MOSI);
 		snd = 0;
 
 		case (state)
+			// idle state, waits for next transaction
 			IDLE: begin
 				// if the counter is full, goes to request state
 				if (next_transaction) begin
