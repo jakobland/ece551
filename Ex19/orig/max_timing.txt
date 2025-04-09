@@ -1,0 +1,116 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : mult_accum
+Version: V-2023.12-SP5
+Date   : Wed Apr  9 12:13:18 2025
+****************************************
+
+Operating Conditions: tt0p85v25c   Library: saed32lvt_tt0p85v25c
+Wire Load Model Mode: enclosed
+
+  Startpoint: accum_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: accum_reg[63]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mult_accum         16000                 saed32lvt_tt0p85v25c
+  mult_accum_DW01_add_0
+                     8000                  saed32lvt_tt0p85v25c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  accum_reg[0]/CLK (DFFX1_LVT)                            0.00       0.00 r
+  accum_reg[0]/Q (DFFX1_LVT)                              0.08       0.08 r
+  add_27/A[0] (mult_accum_DW01_add_0)                     0.00       0.08 r
+  add_27/U65/Y (AND2X1_LVT)                               0.05       0.13 r
+  add_27/U1_1/CO (FADDX1_LVT)                             0.08       0.21 r
+  add_27/U1_2/CO (FADDX1_LVT)                             0.09       0.30 r
+  add_27/U1_3/CO (FADDX1_LVT)                             0.09       0.38 r
+  add_27/U1_4/CO (FADDX1_LVT)                             0.09       0.47 r
+  add_27/U1_5/CO (FADDX1_LVT)                             0.09       0.55 r
+  add_27/U1_6/CO (FADDX1_LVT)                             0.09       0.64 r
+  add_27/U1_7/CO (FADDX1_LVT)                             0.09       0.72 r
+  add_27/U1_8/CO (FADDX1_LVT)                             0.09       0.81 r
+  add_27/U1_9/CO (FADDX1_LVT)                             0.09       0.89 r
+  add_27/U1_10/CO (FADDX1_LVT)                            0.09       0.98 r
+  add_27/U1_11/CO (FADDX1_LVT)                            0.09       1.06 r
+  add_27/U1_12/CO (FADDX1_LVT)                            0.09       1.15 r
+  add_27/U1_13/CO (FADDX1_LVT)                            0.09       1.23 r
+  add_27/U1_14/CO (FADDX1_LVT)                            0.09       1.32 r
+  add_27/U1_15/CO (FADDX1_LVT)                            0.09       1.40 r
+  add_27/U1_16/CO (FADDX1_LVT)                            0.09       1.49 r
+  add_27/U1_17/CO (FADDX1_LVT)                            0.09       1.57 r
+  add_27/U1_18/CO (FADDX1_LVT)                            0.09       1.66 r
+  add_27/U1_19/CO (FADDX1_LVT)                            0.09       1.75 r
+  add_27/U1_20/CO (FADDX1_LVT)                            0.09       1.83 r
+  add_27/U1_21/CO (FADDX1_LVT)                            0.09       1.92 r
+  add_27/U1_22/CO (FADDX1_LVT)                            0.09       2.00 r
+  add_27/U1_23/CO (FADDX1_LVT)                            0.09       2.09 r
+  add_27/U1_24/CO (FADDX1_LVT)                            0.09       2.17 r
+  add_27/U1_25/CO (FADDX1_LVT)                            0.09       2.26 r
+  add_27/U1_26/CO (FADDX1_LVT)                            0.09       2.34 r
+  add_27/U1_27/CO (FADDX1_LVT)                            0.09       2.43 r
+  add_27/U1_28/CO (FADDX1_LVT)                            0.09       2.51 r
+  add_27/U1_29/CO (FADDX1_LVT)                            0.09       2.60 r
+  add_27/U1_30/CO (FADDX1_LVT)                            0.09       2.68 r
+  add_27/U1_31/CO (FADDX1_LVT)                            0.09       2.77 r
+  add_27/U64/Y (AND2X1_LVT)                               0.05       2.81 r
+  add_27/U63/Y (AND2X1_LVT)                               0.05       2.86 r
+  add_27/U62/Y (AND2X1_LVT)                               0.05       2.91 r
+  add_27/U61/Y (AND2X1_LVT)                               0.05       2.95 r
+  add_27/U60/Y (AND2X1_LVT)                               0.05       3.00 r
+  add_27/U59/Y (AND2X1_LVT)                               0.05       3.04 r
+  add_27/U58/Y (AND2X1_LVT)                               0.05       3.09 r
+  add_27/U57/Y (AND2X1_LVT)                               0.05       3.13 r
+  add_27/U56/Y (AND2X1_LVT)                               0.05       3.18 r
+  add_27/U55/Y (AND2X1_LVT)                               0.05       3.22 r
+  add_27/U54/Y (AND2X1_LVT)                               0.05       3.27 r
+  add_27/U53/Y (AND2X1_LVT)                               0.05       3.32 r
+  add_27/U52/Y (AND2X1_LVT)                               0.05       3.36 r
+  add_27/U51/Y (AND2X1_LVT)                               0.05       3.41 r
+  add_27/U50/Y (AND2X1_LVT)                               0.05       3.45 r
+  add_27/U49/Y (AND2X1_LVT)                               0.05       3.50 r
+  add_27/U48/Y (AND2X1_LVT)                               0.05       3.54 r
+  add_27/U47/Y (AND2X1_LVT)                               0.05       3.59 r
+  add_27/U46/Y (AND2X1_LVT)                               0.05       3.63 r
+  add_27/U45/Y (AND2X1_LVT)                               0.05       3.68 r
+  add_27/U44/Y (AND2X1_LVT)                               0.05       3.73 r
+  add_27/U43/Y (AND2X1_LVT)                               0.05       3.77 r
+  add_27/U42/Y (AND2X1_LVT)                               0.05       3.82 r
+  add_27/U41/Y (AND2X1_LVT)                               0.05       3.86 r
+  add_27/U40/Y (AND2X1_LVT)                               0.05       3.91 r
+  add_27/U39/Y (AND2X1_LVT)                               0.05       3.95 r
+  add_27/U38/Y (AND2X1_LVT)                               0.05       4.00 r
+  add_27/U37/Y (AND2X1_LVT)                               0.05       4.05 r
+  add_27/U36/Y (AND2X1_LVT)                               0.05       4.09 r
+  add_27/U35/Y (AND2X1_LVT)                               0.05       4.14 r
+  add_27/U2/Y (NAND2X0_LVT)                               0.03       4.17 f
+  add_27/U1/Y (XNOR2X1_LVT)                               0.09       4.26 r
+  add_27/SUM[63] (mult_accum_DW01_add_0)                  0.00       4.26 r
+  U37/Y (AO22X1_LVT)                                      0.05       4.31 r
+  accum_reg[63]/D (DFFX1_LVT)                             0.01       4.32 r
+  data arrival time                                                  4.32
+
+  clock clk (rise edge)                                   5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  accum_reg[63]/CLK (DFFX1_LVT)                           0.00       5.00 r
+  library setup time                                     -0.02       4.98
+  data required time                                                 4.98
+  --------------------------------------------------------------------------
+  data required time                                                 4.98
+  data arrival time                                                 -4.32
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.65
+
+
+1
