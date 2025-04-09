@@ -1,29 +1,20 @@
-module PB_rise(
-	input rst_n,
-	input clk,
-	input PB,
-	output rise
-);
-	
-	logic PB_q1, PB_q2, PB_q3;
-	
-	/* Released is asserted upon a negedge of stabilized
-	 * button signal */
-	assign released = PB_q2 & ~PB_q3;
-	
-	/* Double flop input for metastability of async button press,
-	 * and another flop for negedge detection */
+module PB_rise (PB, rst_n, clk, rise);
+	input wire PB, rst_n, clk;
+	output wire rise;
+	logic meta1, meta2, detector;
+
+	assign rise = (meta2 && ~detector);
+
 	always_ff @(posedge clk, negedge rst_n) begin
-		if(!rst_n) begin
-			PB_q1 <= 1'b1;
-			PB_q2 <= 1'b1;
-			PB_q3 <= 1'b1;
+		if (!rst_n) begin
+			meta1 <= 1;
+			meta2 <= 1;
+			detector <= 1;
 		end
 		else begin
-			PB_q1 <= PB;
-			PB_q2 <= PB_q1;
-			PB_q3 <= PB_q2;
+			meta1 <= PB;
+			meta2 <= meta1;
+			detector <= meta2;
 		end
 	end
-
 endmodule
