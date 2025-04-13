@@ -7,11 +7,12 @@ output reg [63:0] accum;
 reg [31:0] prod_reg;
 reg en_stg2;
 reg en_stg1;
+wire stg1_clk;
 
 ///////////////////////////////////////////
 // Generate and flop product if enabled //
 /////////////////////////////////////////
-always_latch @(negedge clk)
+always @(negedge clk)
   en_stg1 <= en;
 
 assign stg1_clk = en_stg1 & clk;
