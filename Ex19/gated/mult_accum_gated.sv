@@ -1,4 +1,4 @@
-module mult_accum(clk,clr,en,A,B,accum);
+module mult_accum_gated(clk,clr,en,A,B,accum);
 
 input clk,clr,en;
 input [15:0] A,B;

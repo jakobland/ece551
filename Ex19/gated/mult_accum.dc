@@ -1,9 +1,9 @@
-read_file -format sverilog mult_accum_gated.sv  
+read_file -format sverilog mult_accum_gated.sv
 
 ###################################
 # Set Current Design to top level #
 ###################################
-current_design mult_accum
+current_design mult_accum_gated
 
 ###########################################
 # Define clock and set don't mess with it #
@@ -17,7 +17,7 @@ set prim_inputs [remove_from_collection [all_input] [find port clk]]
 #########################################
 # Set input delay & drive on all inputs #
 #########################################
-set_input_delay -clock clk 0.75 $prim_inputs 
+set_input_delay -clock clk 0.75 $prim_inputs
 set_driving_cell -lib_cell NAND2X1_LVT  -library saed32lvt_tt0p85v25c [copy_collection $prim_inputs]
 
 ##########################################################
@@ -40,7 +40,7 @@ set_load 0.05 [all_outputs]
 #############################################################
 # Wire load model allows it to estimate internal parasitics #
 #############################################################
-set_wire_load_model -name 16000 -library saed32lvt_tt0p85v25c 
+set_wire_load_model -name 16000 -library saed32lvt_tt0p85v25c
 
 ########################################
 # Now actually synthesize for 1st time #
